@@ -133,3 +133,37 @@
 }
 /* ScrollBar Style - End */
 
+.row
+{
+  margin: 2px;
+}
+
+hr 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #c0c0c0;
+}
+
+fieldset 
+{
+    border: 1px solid #c0c0c0;
+    min-width: 0;
+    padding: 2px 6px 6px 6px;
+}
+
+legend {
+    display: block;
+    padding: 2px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    line-height: inherit;
+    color: #c0c0c0;
+    border: 0px;
+    width: auto;
+}
+
+/* RadioButton Style - Start */
+
+/* RadioButton Style - End */

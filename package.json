@@ -7,8 +7,8 @@
     "url": "https://github.com/ssmanian07/ReactJSTemplate.git"
   },
   "scripts": {
-    "aigbuild": "webpack -d --config webpack.config.js --colors",
-    "aigbuild-watch": "webpack -d --config webpack.config.js --watch --colors",
+    "localbuild": "webpack -d --config webpack.config.js --colors",
+    "localbuild-watch": "webpack -d --config webpack.config.js --watch --colors",
     "tests": "karma start karma.conf.js  --single-run=true --log-level=DEBUG",
     "tests-watch": "karma start karma.conf.js --single-run=false --log-level=DEBUG",
     "execute": "http-server ./Server -o"

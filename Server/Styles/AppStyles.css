@@ -1,0 +1,135 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.container-fluid-header {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+.navbar-brand {
+    float: left;
+    padding: 5px;
+    font-size: 17px;
+    line-height: 23px;
+    height: 64px;
+}
+.navbar-aig-logo {
+    float: left;
+    height: 50px;
+    width:90px;
+}
+.navbar-aig-title {
+    float: left;
+    font-weight: Bold;
+    vertical-align: middle;
+    margin-top: 12px;
+    font-size: 22px;
+    padding-left: 12px;
+    color: white;
+}
+.navbar-user-greetings {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.navbar-tool-bar {
+   padding:3px;
+   background-color:#b3ddff;
+}
+.navbar-tool-button {
+   margin:4px;
+}
+.header-row{
+ margin-left: -2px;
+ margin-right: -2px;
+}
+.footer-row{
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.layout-body-content {
+ padding : 1px; 
+}
+.page-body-content {
+ min-height : 500px;
+ padding: 2px;
+}
+.layout-section-content {
+ border-color :#2FC2FC;
+ border-width : 2px;
+ border-style : dotted;
+}
+.text-center {
+  padding-top: 20px;
+}
+.col-xs-12 {
+  background-color: #fff;
+}
+
+.layout-quick-actions{
+
+}
+
+
+
+#sidebar {
+  height: 100%;
+  padding-right: 0;
+}
+#sidebar .nav {
+  width: 95%;
+}
+#sidebar li {
+  border:0 #f2f2f2 solid;
+  border-bottom-width:1px;
+}
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -41.6%;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -41.6%;
+  }
+  .row-offcanvas-right.active {
+    right: 41.6%;
+  }
+  .row-offcanvas-left.active {
+    left: 41.6%;
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 41.6%;
+  }
+  #sidebar {
+    padding-top:0;
+  }
+}
+
+/* ScrollBar Style - Start */
+.sideBarScroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* ScrollBar Style - End */
+

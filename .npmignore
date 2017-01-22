@@ -1,0 +1,9 @@
+# .npmignore
+/JSUnitTests
+/node_modules
+/src
+tests.webpack.js
+webpack.conf.js
+karma.conf.js
+.babelrc
+.eslintrc
